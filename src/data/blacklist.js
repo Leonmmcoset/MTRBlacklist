@@ -59,6 +59,8 @@ export const blacklistData = [
   { qq: "286638129", name: "JAVA版FNAF，JOJO，MTR。。。", reason: "无故向陌生人索要追加包，在别人给他了之后还指使对方帮自己做事，把别人当自己仆人" },
   { qq: "1947244739", name: "小王", reason: "邮箱骚扰辱骂群其他服务器管理员" },
   { qq: "1215251550", name: "chiipa", reason: "恶意网爆其他服务器管理员，恶意煽动事态，言语污秽暴力，态度极其恶劣" },
+  { qq: "807026991", name: "绿色的CR200J立及甬", reason: "恶意诋毁其他服务器名誉，冒充服务器审核员，在群内刷屏" },
+  { qq: "2186663946", name: "宇智波带土", reason: "恶意辱骂及诋毁其他服主及管理员，造成严重不良影响" }
 ];
 
 export const isInBlacklist = (qq) => {
