@@ -57,6 +57,6 @@ export const blacklistData = [
   { qq: "3838171983", name: "坤一", reason: "趁管理员不在时在轻蓝服务器使用TNT炸服，并以表弟为借口逃避责任" },
 ];
 
-export const isInBlacklist = (qq) => {
-  return blacklistData.find(item => item.qq === qq);
+export const isInBlacklist = (query) => {
+  return blacklistData.find(item => item.qq === query || item.name === query);
 };
